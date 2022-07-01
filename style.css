@@ -1,0 +1,566 @@
+/* Reset  */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Landing */
+body {
+    font-size: 2.1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #f7f4f3;
+  }
+  h2 {
+    font-size: 20px !important;
+    letter-spacing: -0.005em;
+    line-height: 1.1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #f7f4f3;
+    padding: 20px;
+  }
+  h3 {
+    color: #f7f4f3;
+    text-align: start;
+    font-size: 10px !important;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 0.15rem;
+  }
+  h4 {
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #f7f4f3;
+    text-transform: capitalize;
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.4rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #7c7c7c;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 20px;
+  }
+#logo {
+  color: #fff;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  position: fixed;
+  opacity: 0.8;
+}
+.navbar {
+  width: 100vw;
+  width: 100%;
+  position: relative;
+  background: rgba(12, 11, 9, 0.6);
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+  opacity: 0.8;
+}
+.nav {
+  width: 100%;
+  width: 100vw;
+  position: relative;
+}
+.navbar-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.nav-item {
+    font-size: 18px;
+}
+#landing {
+  background-image: url(./images/Free-MacBook-Long-Scroll-Mockup.jpg);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#landing-title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#landing-subtitle {
+  color: #fff;
+  font-size: 22px;
+}
+.landing-page-buttons {
+  /* width: 250px; */
+  gap: 20px;
+}
+.landing-page button {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: none !important;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.line {
+  width: 100px;
+  height: 1px;
+  background: #fff;
+  display: block;
+  margin-bottom: 30px;
+}
+#why-us {
+  height: 50%;
+  background-color: #1A1814;
+}
+.why-us-box {
+  background: #201D18;
+  height: 200px;
+  align-items: center;
+}
+.why-us-box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+}
+.why-us-box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+#about {
+  background: url(./images/Free-MacBook-Long-Scroll-Mockup.jpg) center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+#about-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.about-list {
+  margin-bottom: 20px;
+}
+.section-title {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 20px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  font-family: "Poppins", sans-serif;
+}
+.section-subtitle {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #CDA45E;
+}
+.menu,
+#menu {
+  background-color: #201D18;
+}
+.menu-groups div {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  margin: 50px 0px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  width: fit-content;
+}
+.menu-item img {
+  width: 60px;
+  height: 60px;
+  border: solid grey 2px;
+  border-radius: 50%;
+}
+.menu-content {
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.menu-text h5 {
+  background: #1A1814;
+  position: relative;
+  z-index: 3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.menu-text p {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+}
+.item-price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.price {
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #CDA45E;
+}
+.dotted-line {
+  border-bottom: dotted 2px;
+  color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  height: 10px;
+  padding-inline: 20px;
+}
+/* Specials */
+.specials {
+  background-color: #1A1814;
+}
+.tab-pane img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.tab-pane h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+.tab-pane p {
+  color: #AAAAAA;
+}
+.specials-nav {
+  border-right: solid 2px #CDA45E;
+}
+.specials-nav-link {
+  background-color: #1A1814;
+  border: 0;
+  padding: 12px 15px;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 0;
+  border-right: 2px solid #CDA45E;
+  font-weight: 600;
+  font-size: 15px;
+}
+.nav-pills .nav-link.active {
+  color: #1A1814;
+  background: #CDA45E;
+}
+/* Events */
+#events {
+  background: url(./Images/Restuarant\ Table.jpg) center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.carousel-indicators .active {
+  color: #CDA45E !important;
+}
+.events-text h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #CDA45E;
+  font-family: "Playfair Display", serif;
+  line-height: 2;
+}
+.events-text p {
+  line-height: 2;
+}
+.events-text span {
+  border-bottom: 2px solid #CDA45E;
+}
+#reservation {
+  background-color: #1A1814;
+}
+.booking-input,
+.booking-message {
+  background-color: transparent !important;
+  color: #CDA45E;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: #0C0B09;
+  border-color: #625B4B;
+}
+.booking-message {
+  height: 100px !important;
+}
+.form-floating > .form-control {
+  background-color: transparent !important;
+  border: solid 0.1px #625B4B;
+}
+.booking-button {
+  background: #CDA45E;
+  border: none !important;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  justify-items: center;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+/* Testimony */
+.testimony {
+  background-color: rgb(26, 24, 20);
+}
+.swiper {
+  width: 100vw;
+  height: auto;
+}
+.swiper-slide {
+  width: 150px;
+  margin-right: 20px;
+  transition-property: transform;
+}
+.swiper-slide img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+}
+.swiper-text-box {
+  box-sizing: content-box;
+  min-height: 150px;
+  width: 400px;
+  background-color: rgb(38, 35, 29);
+}
+.swiper-text-box p {
+  font-style: italic;
+  line-height: 2;
+  margin: 0px 15px;
+  padding: 20px 20px 60px;
+  border-radius: 6px;
+  position: relative;
+  font-family: "Open Sans", serif;
+}
+.swiper-profile {
+  margin: -40px 0 0 30px;
+}
+.swiper-profile h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+/* Gallery */
+.gallery {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery_item {
+  object-fit: cover;
+}
+/* #gallery_item_1 {
+  grid-column-end: span 2;
+}
+#gallery_item_2 {
+  grid-row-end: span 2;
+}
+#gallery_item_4 {
+  grid-row-end: span 2;
+}
+#gallery_item_6 {
+  grid-column-end: span 2;
+}
+#gallery_item_7 {
+  grid-row-end: span 2;
+} */

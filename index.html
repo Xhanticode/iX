@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iX</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <ul class="nav justify-content-around bg-dark mt-4 navbar">
+        <li id="logo">iX</li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Browse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Specials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">iPhone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">MacBook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">iPad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">AirPods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Support</a>
+        </li>
+        <li>
+          <button class="btn rounded-pill text-light">My iX</button>
+        </li>
+      </ul>
+    </header>
+    <section id="landing">
+      <div class="container landing-page text-light">
+        <div
+          class="d-flex flex-column justify-content-center"
+          style="height: 100vh"
+        >
+          <h1 id="landing-title">
+          </h1>
+          <h3 id="landing-subtitle">
+            South Africa's most trusted second-hand apple products store.
+          </h3>
+          <div class="d-flex mt-4 d-flex landing-page-buttons">
+            <button class="btn rounded-pill text-light">Buy</button>
+            <button class="btn rounded-pill text-light">Sell</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class=" align-items-center p-3 text-light gallery" id="gallery">
+          <div class="gallery_item" id="gallery_item_1"><img src="https://fakeimg.pl/200x200" alt=""></div>
+          <div class="gallery_item" id="gallery_item_2"><img src="https://fakeimg.pl/200x200" alt=""></div>
+          <div class="gallery_item" id="gallery_item_3"><img src="https://fakeimg.pl/200x200" alt=""></div>
+          <div class="gallery_item" id="gallery_item_4"><img src="https://fakeimg.pl/200x200" alt=""></div>
+          <div class="gallery_item" id="gallery_item_5"><img src="https://fakeimg.pl/200x200" alt=""></div>
+          <div class="gallery_item" id="gallery_item_6"><img src="https://fakeimg.pl/200x200" alt=""></div>
+      </div>
+    </section>
+  
+         
+    <section><div class="container"></div></section>
+    <section><div class="container"></div></section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 3,
+    //  spaceBetween: 30
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay: {
+   delay: 5000,
+ },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+  </script>
+  </body>
+</html>
