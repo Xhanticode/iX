@@ -128,7 +128,7 @@ body {
     font-size: 2.1rem;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
-    color: #f7f4f3;
+    color: #f7f4f3;;
   }
   h2 {
     font-size: 20px !important;
@@ -331,89 +331,7 @@ body {
   font-family: "Playfair Display", serif;
   color: #CDA45E;
 }
-.menu,
-#menu {
-  background-color: #201D18;
-}
-.menu-groups div {
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  color: #fff;
-  margin: 50px 0px;
-  transition: all ease-in-out 0.3s;
-  border-radius: 50px;
-  font-family: "Playfair Display", serif;
-  width: fit-content;
-}
-.menu-item img {
-  width: 60px;
-  height: 60px;
-  border: solid grey 2px;
-  border-radius: 50%;
-}
-.menu-content {
-  justify-content: flex-start;
-  margin-bottom: 50px;
-}
-.menu-text h5 {
-  background: #1A1814;
-  position: relative;
-  z-index: 3;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  color: white;
-  transition: 0.3s;
-  margin-bottom: 10px;
-}
-.menu-text p {
-  font-style: italic;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.5);
-  padding-left: 10px;
-}
-.item-price {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10px;
-}
-.price {
-  z-index: 3;
-  padding: 0 10px;
-  font-weight: 600;
-  color: #CDA45E;
-}
-.dotted-line {
-  border-bottom: dotted 2px;
-  color: rgba(255, 255, 255, 0.5);
-  width: 60%;
-  height: 10px;
-  padding-inline: 20px;
-}
-/* Specials */
-.specials {
-  background-color: #1A1814;
-}
-.tab-pane img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 30px;
-}
-.tab-pane h2 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #fff;
-  font-family: "Playfair Display", serif;
-}
-.tab-pane p {
-  color: #AAAAAA;
-}
+
 .specials-nav {
   border-right: solid 2px #CDA45E;
 }
@@ -431,112 +349,6 @@ body {
 .nav-pills .nav-link.active {
   color: #1A1814;
   background: #CDA45E;
-}
-/* Events */
-#events {
-  background: url(./Images/Restuarant\ Table.jpg) center;
-  background-size: cover;
-  position: relative;
-  padding: 80px 0;
-  background-attachment: fixed;
-  opacity: 0.8;
-}
-.carousel-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.carousel-indicators .active {
-  color: #CDA45E !important;
-}
-.events-text h4 {
-  font-weight: 600;
-  font-size: 26px;
-  color: #CDA45E;
-  font-family: "Playfair Display", serif;
-  line-height: 2;
-}
-.events-text p {
-  line-height: 2;
-}
-.events-text span {
-  border-bottom: 2px solid #CDA45E;
-}
-#reservation {
-  background-color: #1A1814;
-}
-.booking-input,
-.booking-message {
-  background-color: transparent !important;
-  color: #CDA45E;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  background: #0C0B09;
-  border-color: #625B4B;
-}
-.booking-message {
-  height: 100px !important;
-}
-.form-floating > .form-control {
-  background-color: transparent !important;
-  border: solid 0.1px #625B4B;
-}
-.booking-button {
-  background: #CDA45E;
-  border: none !important;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  justify-items: center;
-  margin-inline: auto;
-  margin-top: 20px;
-}
-/* Testimony */
-.testimony {
-  background-color: rgb(26, 24, 20);
-}
-.swiper {
-  width: 100vw;
-  height: auto;
-}
-.swiper-slide {
-  width: 150px;
-  margin-right: 20px;
-  transition-property: transform;
-}
-.swiper-slide img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  position: relative;
-  z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.2);
-}
-.swiper-text-box {
-  box-sizing: content-box;
-  min-height: 150px;
-  width: 400px;
-  background-color: rgb(38, 35, 29);
-}
-.swiper-text-box p {
-  font-style: italic;
-  line-height: 2;
-  margin: 0px 15px;
-  padding: 20px 20px 60px;
-  border-radius: 6px;
-  position: relative;
-  font-family: "Open Sans", serif;
-}
-.swiper-profile {
-  margin: -40px 0 0 30px;
-}
-.swiper-profile h3 {
-  font-size: 18px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
 }
 /* Gallery */
 .gallery {
@@ -564,3 +376,13 @@ body {
 #gallery_item_7 {
   grid-row-end: span 2;
 } */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0C0B09;
+    color: #fff;
+}
+#footer_section {
+    background-color: #0C0B09;  
+    overflow-y: hidden;
+}

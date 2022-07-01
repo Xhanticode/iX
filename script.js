@@ -36,3 +36,6 @@ Img:,},
 Cat: MacBooks,
 Img:,}
 ]
+// let productsGrid = document.getElementById("gallery");
+// let eachProduct = document.createElement("div");
+// eachProduct.classList.add("gallery_item");
