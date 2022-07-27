@@ -78,6 +78,88 @@
     </section>
     <section id="about">
       <div class="container">
+        <div id="filter">
+          <form action="" id="search">
+            <label class="search-lbl" for="Gadget"
+          >
+              <select
+                name="Gadget"
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+                onchange="filterCategory()"
+                id="categorySelect"
+              >
+                <option value="" disabled selected hidden class="text-muted" value="">
+                  Looking for?
+                </option>
+                <option value="MacBook">MacBook</option>
+                <option value="iPhone">iPhone</option>
+                <option value="iPad">iPad</option>
+                <option value="AirPods">AirPods</option>
+                <option value="Apple Watch">Apple Watch</option>
+              </select>
+            </label>
+            <label class="search-lbl" for="Location"
+              >
+              <select
+                name="Location"
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+                onchange="filterCity()"
+                id="citySelect"
+              >
+                <option value="" selected hidden class="text-muted">
+                  Cities
+                </option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="Johannesburg">Johannesburg</option>
+                <option value="East London">East London</option>
+                <option value="Durban">Durban</option>
+              </select>
+            </label>
+            <label class="search-lbl" for="Year"
+              >
+              <select
+                name="Year"
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+                onchange="filterBedrooms()"
+                id="sizeSelect"
+              >
+                <option value="" selected hidden class="text-muted">
+                  Year
+                </option>
+                <option value="1">2022</option>
+                <option value="2">2021</option>
+                <option value="3">2020</option>
+                <option value="4">2019</option>
+                <option value="5">2018</option>
+              </select>
+            </label>
+            <label class="search-lbl" for="Budget"
+              >
+              <select
+                name="Budget"
+                class="form-select form-select-sm"
+                aria-label=".form-select-sm example"
+                onchange="filterPrice()"
+                id="budgetfilter"
+              >
+                <option value="" selected hidden class="text-muted">
+                  Max price
+                </option>
+                <option value="1">Any</option>
+                <option value="2">1000</option>
+                <option value="3">3000</option>
+                <option value="4">5000</option>
+                <option value="5">10000</option>
+                <option value="5">20000</option>
+                <option value="5">60000</option>
+              </select>
+            </label>
+            <button type="submit" id="search-btn" class="main-btn" onclick="display()">Search</button>
+          </form>
+        </div>
         <div class=" align-items-center p-3 text-light gallery" id="gallery">
           <!-- <div class="gallery_item" id="gallery_item_1"><img src="https://fakeimg.pl/200x200" alt=""></div>
           <div class="gallery_item" id="gallery_item_2"><img src="https://fakeimg.pl/200x200" alt=""></div>

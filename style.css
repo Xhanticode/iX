@@ -457,3 +457,39 @@ body {
 .modal-footer button:hover {
   background: var(--accent);
 }
+.main-btn {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: none !important;
+    font-family: "Open Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+#filter select {
+  background: rgba(146, 150, 200, 0.37);
+  opacity: 1;
+  border-radius: 10px;
+    border: none;
+    font-size: 10px !important;
+    font-weight: 700;
+    font-family: var(--p-font);
+  padding: 0.5rem 2rem;
+    color: var(--p-color);
+}
+#search {
+  display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
