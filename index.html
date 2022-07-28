@@ -11,6 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/bb1e3003a2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +28,7 @@
   </head>
   <body>
     <header id="header" class="fixed-top d-flex align-items-center">
-      <ul class="nav justify-content-around bg-dark mt-4 navbar">
+      <ul class="nav justify-content-around bg-dark mt-4 navbar" id="nav">
         <li id="logo">iX</li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#">About</a>
@@ -57,6 +58,13 @@
           <button class="btn rounded-pill text-light">My iX</button>
         </li>
       </ul>
+      <!-- Menu icon  -->
+      <div class="menu-icon text-light" onclick="showMenu()" id="menu-icon">
+      <span class="menu-lines line-1"></span>
+      <span class="menu-lines line-2"></span>
+      <span class="menu-lines line-3"></span>
+      <span class="menu-lines line-4"></span>
+      </div>
     </header>
     <section id="landing">
       <div class="container landing-page text-light">

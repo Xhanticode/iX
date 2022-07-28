@@ -193,6 +193,24 @@ body {
   position: fixed;
   opacity: 0.8;
 }
+.menu-icon {
+  display: none;
+  top: 2rem;
+  right: 2rem;
+  position: absolute;
+  width: 1.8rem;
+  height: 2rem;
+}
+.menu-lines {
+  border-bottom:0.1rem solid #f7f4f3;
+  width: 100%;
+}
+.line-2 {
+  width: 50%;
+}
+.line-3 {
+  width: 80%;
+}
 .navbar {
   width: 100vw;
   width: 100%;
@@ -280,33 +298,6 @@ body {
 .landing-page button:hover {
   background: var(--accent);
 }
-.line {
-  width: 100px;
-  height: 1px;
-  background: #fff;
-  display: block;
-  margin-bottom: 30px;
-}
-#why-us {
-  height: 50%;
-  background-color: #1A1814;
-}
-.why-us-box {
-  background: #201D18;
-  height: 200px;
-  align-items: center;
-}
-.why-us-box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-}
-.why-us-box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-}
 #about {
   background: url(./images/Free-MacBook-Long-Scroll-Mockup.jpg) center;
   background-size: cover;
@@ -314,15 +305,6 @@ body {
   padding: 80px 0;
   background-attachment: fixed;
   opacity: 0.8;
-}
-#about-title {
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-.about-list {
-  margin-bottom: 20px;
 }
 .section-title {
   font-size: 14px;
@@ -362,13 +344,8 @@ body {
   background: #CDA45E;
 }
 /* Gallery */
-.gallery {
-  height: 400px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-}
+
+
 .gallery_item {
   object-fit: cover;
 }
@@ -492,4 +469,42 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+    width: 100vw;
+}
+  .gallery {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  } 
+@media screen and (max-width: 810px) {
+ .gallery {
+  grid-template-columns: repeat(2, 1fr);
+} 
+.navbar {
+  display: grid;
+  flex-direction: column;
+  width: 12rem;
+  right: -100%;
+  top: 0;
+  margin-top: 0 !important;
+    height: 100vh;
+    position: absolute;
+}
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+}
+.menu-close {
+  display: none;
+}
+}
+@media screen and (max-width: 480px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 40px;
+  } 
 }

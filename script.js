@@ -124,6 +124,10 @@ filterCity = () => {
     }
   };
   
+  function showMenu (){
+    document.getElementById("nav").style.right = "0%";
+    document.getElementById("menu-icon").classList.add("menu-close");
+  }
 
 // display = () => {document.querySelector("#gallery").innerHTML = ""; 
 //  JSON.parse(retrievedProducts).forEach((Product) => {document.querySelector("#gallery").innerHTML += `<div class="gallery_item"><img src="${Product.Img}" alt="product"></div>`})};
